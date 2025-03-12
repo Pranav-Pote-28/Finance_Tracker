@@ -62,6 +62,11 @@ form button {
     border-radius: 5px;
     padding: 10px;
     background-color: #ddd;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(166, 160, 160);
 }
 
 div.transactions {
@@ -98,6 +103,14 @@ div.price.green {
 
 div.price.red {
     color: #c11;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color:rgb(10, 171, 10);
 }
 
 div.transaction div.datetime {

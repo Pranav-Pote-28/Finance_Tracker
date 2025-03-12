@@ -60,7 +60,11 @@ function App() {
   return (
     <main>
 
-      <h1>Total: {integerPart}<span>.{fractionPart}</span></h1>
+      <h1>
+        Total Expense
+      </h1>
+
+      <h1 className={integerPart<0? "red":"green"}>{integerPart}<span>.{fractionPart}</span></h1>
 
       <form onSubmit={addNewTransaction}>
         <div className="basic">
