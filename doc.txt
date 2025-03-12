@@ -1,0 +1,5 @@
+box-sizing: border-box;
+    padding and border are included inside the element's specified width and height. This means:
+
+    The content area shrinks to make space for padding and border inside the defined dimensions.
+    The total size of the element remains the same, preventing layout shifts.
