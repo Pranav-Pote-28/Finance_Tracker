@@ -2,10 +2,6 @@
 
 Personal Finance Visualizer is a web application that helps users track their transactions, categorize expenses, and visualize their financial data. Built using **React** for the frontend and **MongoDB** for the backend, this project allows users to manage their financial records efficiently.
 
-## Preview
-
-![Finance Tracker UI](https://your-image-url.com)  
-_A screenshot of the application UI._
 
 ## Project Overview
 
@@ -27,7 +23,7 @@ _A screenshot of the application UI._
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/finance-tracker.git
+git clone https://github.com/Pranav-Pote-28/Finance_Tracker.git
 cd finance-tracker
 ```
 
@@ -42,7 +38,7 @@ npm install
 Create a .env file in the root directory and add:
 
 ```sh
-REACT_APP_API_URL=http://localhost:4000
+REACT_APP_API_URL=http://localhost:4040
 MONGO_URL=mongodb+srv://your-username:your-password@your-cluster.mongodb.net/your-db
 ```
 
