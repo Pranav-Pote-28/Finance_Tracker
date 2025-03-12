@@ -37,7 +37,7 @@ app.get("/api/transactions",async(req,res)=>{
 
 
 
-app.listen(4040, () => {
-    console.log('Server is running on port 4040');
+app.listen(4030, () => {
+    console.log('Server is running on port 4030');
 });
 
