@@ -24,7 +24,7 @@ Personal Finance Visualizer is a web application that helps users track their tr
 
 ```sh
 git clone https://github.com/Pranav-Pote-28/Finance_Tracker.git
-cd finance-tracker
+cd finance_tracker
 ```
 
 ### 2. Install Dependencies
@@ -38,7 +38,7 @@ npm install
 Create a .env file in the root directory and add:
 
 ```sh
-REACT_APP_API_URL=http://localhost:4040
+REACT_APP_API_URL="http://localhost:4040/api"
 MONGO_URL=mongodb+srv://your-username:your-password@your-cluster.mongodb.net/your-db
 ```
 
@@ -53,5 +53,5 @@ node index.js
 npm start
 ```
 
-License
+## License
 This project is open-source and available under the MIT License.
